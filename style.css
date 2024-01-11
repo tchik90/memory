@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(213, 213, 213);
+}
+.btnImage {
+    width: 120px;
+    height: 120px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.monTable {
+    width: 505px; /* image x 4 + marge x 3 */
+    height: 380px; /* image x 3 + marge x 2 */
+}
+
+.bgTable {
+    background-color: brown;
+}
+
+@media screen and (max-width: 1280px) {
+    .btnImage {
+        width: 100px;
+        height: 100px;
+    }
+    .monTable {
+        width: 405px; /* image x 4 + marge x 3 */
+        height: 305px; /* image x 3 + marge x 2 */
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .btnImage {
+        width: 80px;
+        height: 80px;
+    }
+    .monTable {
+        width: 335px; /* image x 4 + marge x 3 */
+        height: 250px; /* image x 3 + marge x 2 */
+    }
+}
